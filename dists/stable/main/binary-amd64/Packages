@@ -1,0 +1,17 @@
+Package: clusterfudge
+Version: 2026.0319.1610
+Architecture: amd64
+Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0
+Filename: pool/clusterfudge_2026.0319.1610_amd64.deb
+Size: 18544694
+MD5sum: 5f36ecd1cbf717b6192c91fc40345fa5
+SHA1: d95a28f449a7db4dae34e6f4f347d32333cfe508
+SHA256: 4cabf1529c6092ee17adb9f23059ab6d8636162bc7989450d9a8782f9d4f5fb9
+Section: devel
+Priority: optional
+Homepage: https://github.com/leonardaustin/clusterfudge
+Description: Kubernetes cluster management desktop app
+ A native desktop application for managing Kubernetes clusters with
+ AI-powered debugging, multi-cluster support, and real-time monitoring.
+
