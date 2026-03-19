@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>apt.austincorp.com</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; background: #0a0a0a; color: #d4d4d8; line-height: 1.6; padding: 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { color: #fff; font-size: 1.5rem; margin-bottom: 0.25rem; }
+    p.sub { color: #71717a; margin-bottom: 2rem; font-size: 0.875rem; }
+    h2 { color: #fff; font-size: 1rem; margin: 2rem 0 0.75rem; }
+    pre { background: #000; border: 1px solid #27272a; padding: 1rem; overflow-x: auto; font-size: 0.8125rem; line-height: 1.7; margin-bottom: 1rem; }
+    code { font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace; }
+    .comment { color: #52525b; }
+    .cmd { color: #a1a1aa; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.8125rem; }
+    td { padding: 0.5rem 0; border-bottom: 1px solid #1c1c1e; }
+    td:first-child { font-weight: 600; color: #fff; }
+    td:last-child { color: #71717a; }
+    a { color: #34d399; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #1c1c1e; color: #3f3f46; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <h1>apt.austincorp.com</h1>
+  <p class="sub">APT package repository for Austin Corp open source projects.</p>
+
+  <h2>Setup</h2>
+  <pre><code><span class="comment"># Add the signing key</span>
+<span class="cmd">curl -fsSL https://apt.austincorp.com/pubkey.gpg \
+  | sudo gpg --dearmor -o /usr/share/keyrings/austincorp.gpg</span>
+
+<span class="comment"># Add the repository</span>
+<span class="cmd">echo "deb [signed-by=/usr/share/keyrings/austincorp.gpg] \
+  https://apt.austincorp.com stable main" \
+  | sudo tee /etc/apt/sources.list.d/austincorp.list</span>
+
+<span class="comment"># Install packages</span>
+<span class="cmd">sudo apt update && sudo apt install clusterfudge</span></code></pre>
+
+  <h2>Available packages</h2>
+  <table>
+    <tr>
+      <td>clusterfudge</td>
+      <td>Kubernetes cluster management desktop app</td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    <a href="https://github.com/leonardaustin/apt.austincorp.com">Source</a> &middot;
+    <a href="/pubkey.gpg">GPG public key</a>
+  </div>
+</body>
+</html>
