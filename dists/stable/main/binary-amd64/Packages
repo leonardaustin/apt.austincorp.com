@@ -1,13 +1,13 @@
 Package: clusterfudge
-Version: 2026.0322.2300
+Version: 2026.0323.2219
 Architecture: amd64
 Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0
-Filename: pool/clusterfudge_2026.0322.2300_amd64.deb
-Size: 18548542
-MD5sum: 6aa43d362c08bdd3fa789c9e5434a743
-SHA1: 0d73f180aeccd3d238892bc9209518526cdc4b76
-SHA256: baf4f74a11880d64fd2c450e039d15552fa620d6edb22ac9af566acd05bc7175
+Filename: pool/clusterfudge_2026.0323.2219_amd64.deb
+Size: 19693208
+MD5sum: 053ac6b12be0e694f3265f4861e5c8f0
+SHA1: c6fe69753f87189a838ce430275dfc071541dca1
+SHA256: ce15a552fda3846ce1fa960ac57fbe6f352420ecc881c532b3e10aae4d414210
 Section: devel
 Priority: optional
 Homepage: https://github.com/leonardaustin/clusterfudge
