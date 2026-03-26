@@ -15,3 +15,19 @@ Description: Kubernetes cluster management desktop app
  A native desktop application for managing Kubernetes clusters with
  AI-powered debugging, multi-cluster support, and real-time monitoring.
 
+Package: iddio
+Version: 2026.0326.1537
+Architecture: arm64
+Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
+Filename: pool/iddio_2026.0326.1537_arm64.deb
+Size: 8728860
+MD5sum: 9d3beb0dcaf26e2879e06f4f771665d8
+SHA1: da1c181bf9fbc09b55fd38ccd3fa4954d54704d6
+SHA256: b035bee56efc8aa93a7f7c84e40fa27d9dadefba5044c33eecb1d184ba890985
+Section: admin
+Priority: optional
+Homepage: https://iddio.dev
+Description: Security gateway for AI agent access to Kubernetes clusters
+ Iddio sits between AI agents and Kubernetes clusters, classifying every
+ command, enforcing policy, and logging everything.
+
