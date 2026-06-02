@@ -7,21 +7,21 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Tue, 02 Jun 2026 11:11:03 +0000
+Date: Tue, 02 Jun 2026 22:24:11 +0000
 MD5Sum:
- bf6e3d2234dc768f52a454fb41ea44d7 1849 main/binary-amd64/Packages
- b5c63725c8abfa7e96dcfdc4f70dec23 860 main/binary-amd64/Packages.gz
+ b68ddce8336e947a0f08d2b7b3fca019 1847 main/binary-amd64/Packages
+ 7f0304e0d52ed99da1bdf2dd61f6a910 861 main/binary-amd64/Packages.gz
  473649e3bd62a0dcf7ea6bc1b2635862 1299 main/binary-arm64/Packages
- 8162919ed48fb1ddd923cea8940d210e 704 main/binary-arm64/Packages.gz
+ 1ddb39a00f9013d03d479abbdacfbf48 704 main/binary-arm64/Packages.gz
 SHA256:
- 0817a0c074acfcd74d3ba0eec50710f682a7bf4908933ef184332b58bbe74c82 1849 main/binary-amd64/Packages
- 85dcfaceb2709d3ff2d36902eae38e0e3771c5a659ac926c47fc5a92c13addb8 860 main/binary-amd64/Packages.gz
+ fb8cd06b206d703160ad7f3f19c1b916ba6cf89210809c7dd69148963c21637d 1847 main/binary-amd64/Packages
+ d0e847f69d73158d23ede9ae594de0344a4b6459ccc855cd9a186e439d1d3c3c 861 main/binary-amd64/Packages.gz
  ab44adb76c93767cd0921803a70df24ee1e17d2ad493a8fc941317c99d33375c 1299 main/binary-arm64/Packages
- 287071d96c70dcd2c8948f4db75e3a7f8b9d7fdb7141f62480fd0ba72d06c9c5 704 main/binary-arm64/Packages.gz
+ 7a293b3b2db371a03ee62a8ac607168cf66f0d8b9d85dc0c631a7aa14aaeb42c 704 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQgqC+1azHDx2SOuiayVXsFFfnLMQUCah66RwAKCRCyVXsFFfnL
-MYpZAQCGGFR+ME1QtZ5/jK7P0vaJV2TGOb5hSuZTgRGRah4FUAD/UGrIc5yVR0Ks
-zarCEsEbEvqqBTW0evasxHFOJg2Sogg=
-=Yysm
+iHUEARYKAB0WIQQgqC+1azHDx2SOuiayVXsFFfnLMQUCah9YCwAKCRCyVXsFFfnL
+Mcm0AP9Tj+8K9qLClRj42IwEOLE3W4xNsbp19a941PuoubuIPAD/QqZA/cw8G765
+DF5wa8go0VA9EbcNacAq0/fJbu5xgg0=
+=9ukX
 -----END PGP SIGNATURE-----
