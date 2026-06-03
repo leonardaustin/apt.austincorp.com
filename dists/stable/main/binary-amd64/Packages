@@ -32,17 +32,17 @@ Description: Security gateway for AI agent access to Kubernetes clusters
  command, enforcing policy, and logging everything.
 
 Package: iddio-desktop
-Version: 1:26.603.1115
+Version: 1:26.603.1148
 Architecture: amd64
 Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
 Installed-Size: 12723
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0
 Replaces: iddio-desktop
-Filename: pool/iddio-desktop_26.603.1115_amd64.deb
-Size: 4790396
-MD5sum: efed5ee737983b138e868aa246ad0d25
-SHA1: 4b83ce596aeffaa8a99890bdd16c9c1ec18a734f
-SHA256: 3b9c8b8bbae60701ed4c91c466f88d13d7e5ba0eefccd2a3c81c7e810c05b814
+Filename: pool/iddio-desktop_26.603.1148_amd64.deb
+Size: 4790820
+MD5sum: b26eb60e30cd491778435d52e0b5440e
+SHA1: d2a0bf80d5182c6f01899b35f63f79e5755a9860
+SHA256: 1df3afecb7f735da3be539f8f8a9427c7b34699408c36274f5edd5ca6d27433c
 Priority: optional
 Homepage: https://iddio.dev
 Description: Kubernetes security gateway desktop app
