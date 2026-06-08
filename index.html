@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>apt.austincorp.com</title>
+  <title>apt.hitoric.com</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; background: #0a0a0a; color: #d4d4d8; line-height: 1.6; padding: 2rem; max-width: 640px; margin: 0 auto; }
@@ -24,18 +24,18 @@
   </style>
 </head>
 <body>
-  <h1>apt.austincorp.com</h1>
-  <p class="sub">APT package repository for Austin Corp open source projects.</p>
+  <h1>apt.hitoric.com</h1>
+  <p class="sub">APT package repository for Hitoric's projects.</p>
 
   <h2>Setup</h2>
   <pre><code><span class="comment"># Add the signing key</span>
-<span class="cmd">curl -fsSL https://apt.austincorp.com/pubkey.gpg \
-  | sudo gpg --dearmor -o /usr/share/keyrings/austincorp.gpg</span>
+<span class="cmd">curl -fsSL https://apt.hitoric.com/pubkey.gpg \
+  | sudo gpg --dearmor -o /usr/share/keyrings/hitoric.gpg</span>
 
 <span class="comment"># Add the repository</span>
-<span class="cmd">echo "deb [signed-by=/usr/share/keyrings/austincorp.gpg] \
-  https://apt.austincorp.com stable main" \
-  | sudo tee /etc/apt/sources.list.d/austincorp.list</span>
+<span class="cmd">echo "deb [signed-by=/usr/share/keyrings/hitoric.gpg] \
+  https://apt.hitoric.com stable main" \
+  | sudo tee /etc/apt/sources.list.d/hitoric.list</span>
 
 <span class="comment"># Install packages</span>
 <span class="cmd">sudo apt update && sudo apt install clusterfudge</span></code></pre>
@@ -57,7 +57,7 @@
   </table>
 
   <div class="footer">
-    <a href="https://github.com/leonardaustin/apt.austincorp.com">Source</a> &middot;
+    <a href="https://github.com/leonardaustin/apt.hitoric.com">Source</a> &middot;
     <a href="/pubkey.gpg">GPG public key</a>
   </div>
 </body>
