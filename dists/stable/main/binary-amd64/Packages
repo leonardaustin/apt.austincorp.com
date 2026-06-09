@@ -16,17 +16,17 @@ Description: Kubernetes cluster management desktop app
  AI-powered debugging, multi-cluster support, and real-time monitoring.
 
 Package: iddio-desktop
-Version: 0:2.0.0
+Version: 0:2.0.1
 Architecture: amd64
 Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
-Installed-Size: 12831
+Installed-Size: 12835
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0
 Replaces: iddio-desktop
-Filename: pool/iddio-desktop_2.0.0_amd64.deb
-Size: 4828296
-MD5sum: 2e1eff2651ac20a954a11de898209eaf
-SHA1: e33e63d17f5cacda4eb12dbdbbfdbf650346d9b1
-SHA256: 28d307cde56c3cf3607a23618c43d30b1111c8b6981b8a28d3afc52d93a96e16
+Filename: pool/iddio-desktop_2.0.1_amd64.deb
+Size: 4828820
+MD5sum: 7a34f40a8dea475ac3426d9b08eef1dc
+SHA1: 93f3102e62cc58c8aac82e8dfdcb000d6b49731d
+SHA256: 27c2b9f482243d494f70743d80b9556f6afb28f85e1c97589d7ceafb82e78a1f
 Priority: optional
 Homepage: https://iddio.dev
 Description: Kubernetes security gateway desktop app
