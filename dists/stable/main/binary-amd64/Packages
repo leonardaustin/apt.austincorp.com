@@ -31,3 +31,20 @@ Priority: optional
 Homepage: https://iddio.dev
 Description: Kubernetes security gateway desktop app
 
+Package: mezite
+Version: 0.2.24
+Architecture: amd64
+Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
+Filename: pool/mezite_0.2.24_amd64.deb
+Size: 34743070
+MD5sum: f5b272e2e726d5038526ca0b16dbcd57
+SHA1: 677117dcdbc05f8074946596651d6f3048cd8ce8
+SHA256: 871ab23eb7b978e60a98ee5212c9cbfc94d0b9f77ca2f643e8bc4f70c4c7ad31
+Section: admin
+Priority: optional
+Homepage: https://mezite.com
+Description: Self-hosted infrastructure access platform
+ Mezite provides secure access to SSH servers, Kubernetes clusters,
+ databases, and other infrastructure resources with built-in
+ authentication, authorization, and audit logging.
+

@@ -15,3 +15,20 @@ Description: Kubernetes cluster management desktop app
  A native desktop application for managing Kubernetes clusters with
  AI-powered debugging, multi-cluster support, and real-time monitoring.
 
+Package: mezite
+Version: 0.2.24
+Architecture: arm64
+Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
+Filename: pool/mezite_0.2.24_arm64.deb
+Size: 30995426
+MD5sum: 63a93579299438463dffef9ff7918c74
+SHA1: b18e0f000f77ec73c1ba63d3a946b36774f71afd
+SHA256: a959fe4025a5a8d5ccd0304a48d2e1647766e52e1946594191f64acfbd0caa3b
+Section: admin
+Priority: optional
+Homepage: https://mezite.com
+Description: Self-hosted infrastructure access platform
+ Mezite provides secure access to SSH servers, Kubernetes clusters,
+ databases, and other infrastructure resources with built-in
+ authentication, authorization, and audit logging.
+
