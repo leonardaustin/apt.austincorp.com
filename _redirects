@@ -1,0 +1,10 @@
+# Cloudflare Pages rejects a deploy containing any single asset over 25 MiB
+# (https://developers.cloudflare.com/pages/platform/limits/). The .deb
+# packages under pool/ blow past that -- mezite_0.2.24_amd64.deb alone is
+# ~34.7 MB -- so pool/ is excluded from the Pages build (see build-pages.sh)
+# and served straight from GitHub Pages instead.
+#
+# `Filename:` in dists/stable/main/binary-*/Packages is repo-relative
+# ("pool/pkg_ver_arch.deb"), and apt follows HTTP redirects, so this split
+# is invisible to `apt install` -- see README.md for the full picture.
+/pool/*  https://leonardaustin.github.io/apt.hitoric.com/pool/:splat  302
