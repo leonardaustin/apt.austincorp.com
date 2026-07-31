@@ -16,14 +16,14 @@ Description: Kubernetes cluster management desktop app
  AI-powered debugging, multi-cluster support, and real-time monitoring.
 
 Package: mezite
-Version: 0.2.24
+Version: 0.2.25
 Architecture: arm64
 Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
-Filename: pool/mezite_0.2.24_arm64.deb
-Size: 30995426
-MD5sum: 63a93579299438463dffef9ff7918c74
-SHA1: b18e0f000f77ec73c1ba63d3a946b36774f71afd
-SHA256: a959fe4025a5a8d5ccd0304a48d2e1647766e52e1946594191f64acfbd0caa3b
+Filename: pool/mezite_0.2.25_arm64.deb
+Size: 30983440
+MD5sum: a666d20f6814ab6096faac2caaa266cf
+SHA1: a170bec1fe005a890827429423d7b91177059824
+SHA256: 18c156c667006c08ed381a20ded7e1e3ad142928eae6294285d38607ca962165
 Section: admin
 Priority: optional
 Homepage: https://mezite.com
