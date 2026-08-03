@@ -32,14 +32,14 @@ Homepage: https://iddio.dev
 Description: Kubernetes security gateway desktop app
 
 Package: mezite
-Version: 0.2.25
+Version: 0.2.26
 Architecture: amd64
 Maintainer: Leonard Austin <leonardaustin@users.noreply.github.com>
-Filename: pool/mezite_0.2.25_amd64.deb
-Size: 34734814
-MD5sum: eea6ab9caf742911f5ffc27e5ce6fae9
-SHA1: 912434913392dfce3c91b5f142d0681b34769f4e
-SHA256: 64625db28a4cdd65ba5aee9389e0bfbe64d40af786a377930af4a9972749b866
+Filename: pool/mezite_0.2.26_amd64.deb
+Size: 34754018
+MD5sum: 95bafbd94e37f20ad7e617c97f47da3e
+SHA1: 416dee0d081d9ebe9a90d9debf08e4a89875a406
+SHA256: 90fab3f7fc9f7661f15b55dea5cc8e788ecd5d76a1d61dedfefcefeba429ba39
 Section: admin
 Priority: optional
 Homepage: https://mezite.com
